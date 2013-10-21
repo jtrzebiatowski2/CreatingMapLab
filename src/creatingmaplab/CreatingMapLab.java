@@ -1,6 +1,7 @@
 package creatingmaplab;
 
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Set;
 
@@ -18,7 +19,7 @@ public class CreatingMapLab {
         RockBand band2 = new RockBand("2", 5, "Breaking Benjamin", "St.Louis", "07/04/2001");
         RockBand band3 = new RockBand("3", 4, "Avenged Sevenfold", "Miami", "03/12/2003");
     
-        Map <String, RockBand> bandMap = new <String, RockBand> HashMap();
+        Map <String, RockBand> bandMap = new <String, RockBand> LinkedHashMap();
     
         bandMap.put("1", band1);
         bandMap.put("2", band2);
